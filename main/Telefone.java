@@ -3,6 +3,12 @@ package main;
 
 
 public class Telefone {
+   
+   private String tipo;
+   private String ddd;
+   private String numero;
+   private Pessoa pessoa;
+   
 
     public String getTipo() {
         return tipo;
@@ -27,14 +33,5 @@ public class Telefone {
     public void setNumero(String numero) {
         this.numero = numero;
     }
-    
-    public void addPessoa(Pessoa pessoa){
-        pessoa.addTelefone(this);
-        
-        
-    }
-   private String tipo;
-   private String ddd;
-   private String numero;
    
 }

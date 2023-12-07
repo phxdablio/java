@@ -37,10 +37,10 @@ public class Ex2Poli {
             } else {
                 System.out.println("Opção invalida. ");
             }
-            scanner.nextLine(); // Limpar o buffer
+            scanner.nextLine(); 
         }
 
-        System.out.println("\nRelatorio de veículos cadastrados:");
+        System.out.println("\nRelatorio de veiculos cadastrados:");
         for (Veiculo veiculo : veiculos) {
             veiculo.printDados();
         }

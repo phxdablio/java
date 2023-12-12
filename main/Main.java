@@ -161,7 +161,7 @@ public class Main {
       
         
        
-          curso.imprimir(); // Chama o método imprimir de Curso
+          curso.imprimir(); 
         
         scanner.close();
     }
